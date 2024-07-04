@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap" rel="stylesheet">
+    <title>Travel</title>
+    <link rel="stylesheet" type="text/css" href="main-contact.css">
+</head>
+
+<body>
+    <main>
+        <header>
+            <div class="top-nav">
+                <h1><a href="index.html">TRAVEL</a></h1>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="north.html">TOURS</a></li>
+                        <!-- <li><a href="about.html">ABOUT US</a></li> -->
+                        <li><a href="contact.html" class="contactUs">CONTACT US</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        
+        <div class="contact">
+            <h1>GET IN TOUCH</h1>
+            <h2>Phone: (123) 4567-8901</h2>
+            <h2>Email: test@gmail.com</h2>
+            <h2>Address: 123 Main Street, London, ON, N2S 5K9</h2>
+        </div>
+
+        <form onsubmit="processFormSubmit()">
+            <div class="form-container">
+                <div class="form-sub">
+                    <input type="text" id="name" placeholder="Name &#42;" required>
+                    <input type="text" placeholder="Email Address &#42;" required>
+                    <input type="text" placeholder="Phone Number">
+                </div>
+                <div class="form-message">
+                    <textarea id="message" placeholder="Message &#42;" required></textarea>
+                </div>
+                
+            </div>
+            <div class="submitBtn">
+                <button>Send Message</button>
+            </div>
+        </form>
+    </main>
+</body>
+<script>
+    function processFormSubmit() {
+        window.alert("Submitted ! ! !");
+    }
+</script>
+</html>

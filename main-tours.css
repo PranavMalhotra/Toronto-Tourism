@@ -1,0 +1,42 @@
+html, .home{
+    background-image: url(./images/toronto1.jpg);
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+body{
+    margin: 0px 0px 0px 0px;
+}
+
+
+
+@media screen and (min-width: 900px){
+    .top-nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 0px;
+    }
+
+    .top-nav h1{
+        color: white;
+        margin-left: 20px;
+    }
+
+    .top-nav li {
+        display: inline;
+        margin: 20px;
+    }
+
+    .top-nav a{
+        color: white;
+        text-decoration: none;
+    }
+
+    .destination{
+        /* display: flex; */
+        text-align: center;
+        margin: 100px auto;
+        font-size: 30px;
+        color: #F6F7C9;
+    }
+}

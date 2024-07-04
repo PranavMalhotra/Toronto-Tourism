@@ -1,0 +1,245 @@
+html, .home{
+
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'PT Sans Narrow', sans-serif;
+    background-attachment: fixed;
+}
+
+body{
+    margin: 0px 0px 0px 0px;
+}
+
+#TORONTO p{
+    font-size: 42px;
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#myVideo {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.top-nav{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    margin-top: 0px;
+    flex-direction: column;
+    text-align: center;
+}
+
+.top-nav h1{
+    color: white;
+    margin-left: 20px;
+    margin-bottom: 0px;
+}   
+
+.top-nav ul{
+    margin-top: 0px;
+}
+
+.top-nav li {
+    display: flex;
+    margin: 20px;
+}
+
+.top-nav a{
+    color: white;
+    text-decoration: none;
+}
+
+.top-nav ul li .home{
+    color: #8EC1EC;
+}
+
+.slogan{
+    display: flex;
+    flex-direction: column;
+    color: #8EC1EC;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+
+}
+
+.slogan h1{
+    font-size: 70px;
+    padding: 0px;
+    line-height: 60px;
+    margin-bottom: 5px;
+}
+
+
+
+.image-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 100px auto;
+    align-items: center;
+    
+}
+
+
+.image-nature{
+    background-image: url(./images/nature.jpg);
+    width: 180px;
+    height: 270px;
+    background-size: contain;
+    display: flex;
+    margin-right: 20px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.image-city{
+    background-image: url(./images/city.jpg);
+    width: 180px;
+    height: 270px;
+    background-size: contain;
+    display: flex;
+    /* flex-direction: column; */
+    margin-right: 20px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+.image-museum{
+    background-image: url(./images/victoria.jpeg);
+    width: 180px;
+    height: 270px;
+    background-size: contain;
+    display: flex;
+    /* flex-direction: column; */
+    margin-right: 20px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.image-nature h1, .image-museum h1, .image-city h1{
+    margin-top: 220px;
+    color: white;
+}
+
+
+@media screen and (min-width: 900px){
+    .top-nav{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+
+    .top-nav h1{
+        color: white;
+        margin-left: 20px;
+    }
+
+    .top-nav ul{
+        padding-top: 30px;
+    }
+    
+    .top-nav li {
+        display: inline;
+        margin: 20px;
+    }
+
+    .top-nav a{
+        color: white;
+        text-decoration: none;
+    }
+
+    .container{
+        margin-top: 0px;
+    }
+
+    .slogan{
+        min-width: 500px;
+        width: 500px;
+        margin-left: 150px;
+        margin-top: 0px;
+        margin-right: 150px;
+        float: left;
+        text-align: left;
+    }
+
+    .slogan h1{
+        margin-top: 80px;
+    }
+
+    .slogan p {
+        margin-top: 5px;
+    }
+
+        
+    .image-container{
+        display: flex;
+        flex-direction: row;
+        margin-left: 50px;
+    }
+
+
+    .image-nature{
+        min-width: 180px;
+        width: 180px;
+        height: 270px;
+        background-size: contain;
+        display: flex;
+        flex-direction: column;
+        margin-right: 20px;
+        margin-top: 250px;
+    }
+
+    .image-city{
+        min-width: 180px;
+        width: 180px;
+        height: 270px;
+        background-size: contain;
+        display: flex;
+        /* flex-direction: column; */
+        margin-right: 20px;
+        border-radius: 10px;
+        margin-top: 250px;
+        
+    }
+
+    .image-museum{
+        min-width: 180px;
+        width: 180px;
+        height: 270px;
+        background-size: contain;
+        display: flex;
+        flex-direction: column;
+        margin-right: 20px;
+        border-radius: 10px;
+        margin-top: 250px;
+    }
+
+    .image-nature h1, .image-museum h1, .image-city h1{
+        margin-top: 220px;
+        color: white;
+    }
+}
